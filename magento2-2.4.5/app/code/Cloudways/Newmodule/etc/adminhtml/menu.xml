@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © Magento, Inc. All rights reserved.
+* See COPYING.txt for license details.
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+<menu>
+<add id="Cloudways_Newmodule::view" title="Md Blog" module="MdBlog" sortOrder="10" resource="Cloudways_Newmodule::view"/>
+<add id="Cloudways_Newmodule::grid" title="Manage Blog Records" module="Cloudways_Newmodule" sortOrder="9" parent="Cloudways_Newmodule::view" action="blog/grid/index" resource="Cloudways_Newmodule::view"/>
+</menu>
+</config>
